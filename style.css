@@ -1,0 +1,118 @@
+body {
+    margin:0;
+    padding-top: 700px;
+    text-align: center;
+}
+
+.imagen1 {
+    width: 380px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+#bienvenida {
+    position:absolute; /*Posición absolute, se refiere a colocar la sección "welcome" dentro de la pagina web, sin que el texto la tome en cuenta. Se le tiene que abrir espacio por medio de padding, ya que de lo contrario el texto se pondra abajo de esta sección*/
+    bottom: 0%; /*Eliminamos el espacio de la parte de abajo de la sección, ya que de lo contrario la sección "welcome se correria hacia arriba y no se veria completa*/
+    background:linear-gradient(#4c33aa 0%, #c533be 100%);
+    display:table; /*Pone esta sección como en una tabla, se complementa con "table-cell" en parallel inner"*/
+    width: 100%; /*Es el porcentaje de la pagina visible*/
+    height: 100%; /*Es el porcentaje de la pagina visible*/
+    
+}
+
+h1 {
+
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight:900;
+
+}
+
+#nombre {
+    font-size: 50px;
+    font-family: 'Rubik Moonrocks', cursive;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+#resumen {
+    font-family:  cursive;
+    padding: 20px;
+}
+
+.linea {
+    height: 6px;
+    background-color: rgb(197, 31, 183);
+    width: 150px;
+    margin: 8px auto;
+}
+
+.parallax-inner {
+
+    display: table-cell; /*Pone esta sección dentro de una celda, para comprobar se puede poner un color de fondo naranja, para ver la diferencia*/
+    vertical-align:bottom;
+    
+}
+
+
+/*Clase 58------------------------------------------------------*/
+.menu {
+    
+    top:0px;
+    z-index: 1;
+    cursor:pointer;
+    /*Clase 60------------------------------------------------------*/
+    background-color: aliceblue;
+    width:100%;
+    margin-top:0px;
+    position: fixed;
+    /*Clase 60------------------------------------------------------*/
+
+}
+
+
+.links {
+
+font-family: 'Lobster', cursive;
+color:white;
+float:left;
+padding-top: 5px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 5px;
+font-size: 15px;
+
+}
+
+/*Clase 60--------------Cuando el curso se situa arriba de los links--------------------------------------------- */
+.links:hover {
+    font-size:20px;
+    text-decoration:underline;
+}
+/*Clase 60----------------------------------------------------------- */
+
+/*Clase 58----------------------------------------------------------- */
+
+/*Clase 59----------------------------------------------------------- */
+
+a{
+    text-decoration: none;
+}
+/*Clase 59----------------------------------------------------------- */
+
+
+/*Clase 60---#id etiqueta {}, es para decir que la etiqueta que esta en esta sección. !important para dar prioridad sobre otras instrucciones------------------------------------------------------- */
+#ComentariosPersonales a{
+    color:crimson !important;
+    text-decoration: underline !important;
+}
+
+
+#Contacto {
+    background-color: darkmagenta;
+}
